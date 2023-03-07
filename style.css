@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: darkorange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -40,7 +44,35 @@ section {
 }
 
 .dream-big {
-    background-image: url(images/26-266063_blue-half-circle-transparent-hd-png-download-removebg-preview.png);
+    background-image: url(images/26-266063_blue-half-circle-transparent-hd-png-download-removebg-preview\ -\ Copy.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/26-266063_blue-half-circle-transparent-hd-png-download-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid blue;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
